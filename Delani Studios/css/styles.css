@@ -45,7 +45,18 @@ html{
     60% {
       transform: translateY(-45px);
     }
-  }
+
+   
+    }
+    .col-md-3 img{
+      max-width: 100%;
+      max-height: 100%;
+    }
+    .portfolio h2{
+      text-align: center;
+      padding-top:40px;
+      font-family: 'Gabriela', serif;
+    }
   .services{
     text-align: center;
     background-image: url("../images/backgrounds/s_image.jpg");
@@ -73,4 +84,11 @@ html{
 }
 #about{
   font-family: 'Gabriela', serif;
+}
+#portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left:18%;
+  margin-right: 16%; 
 }
