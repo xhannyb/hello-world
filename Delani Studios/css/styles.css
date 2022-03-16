@@ -13,3 +13,7 @@ html{
   font-family: fantasy;
   /* padding-bottom:5%; */
 }
+.landing h1{
+    padding: 2px;
+    margin: 5px;
+  }
